@@ -1,6 +1,5 @@
 package com.example.game_suit_v2
 
-import androidx.appcompat.widget.AppCompatImageView
 import kotlin.random.Random
 
 class MainViewModel() {
@@ -17,9 +16,9 @@ class MainViewModel() {
 
   private fun optionDrawable(option: String): Int {
     return when (option) {
-      "ROCK" -> R.drawable.rock
-      "SCISSORS" -> R.drawable.scissor
-      "PAPER" -> R.drawable.paper
+      "ROCK" -> R.drawable.batu
+      "SCISSORS" -> R.drawable.gunting
+      "PAPER" -> R.drawable.kertas
       else -> R.drawable.question
     }
   }
